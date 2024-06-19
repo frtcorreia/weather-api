@@ -53,8 +53,6 @@ Parameters:
 - `dt`: Date in `yyyy-MM-dd` format (required)
 
 Request example:
-
-json
 `{
   "q": "London",
   "dt": "2023-06-19"
@@ -71,7 +69,6 @@ Parameters:
 - `hour`: Hour of the day for the forecast (required)
 
 Request example:
-json
 `{
   "q": "London",
   "days": 3,
@@ -88,7 +85,6 @@ Parameters:
 - `dt`: Date in `yyyy-MM-dd` format (required)
 
 Request example:
-json
 `{
   "q": "London",
   "dt": "2023-06-19"
@@ -96,26 +92,18 @@ json
 
 ## Running the Server
 
----
-
 To start the server, run the command:
 
-bash
 `npm start`
 
 The server will be running on the port specified in the `.env` file (default: 3000).
 
 ## Contributing
 
----
-
 Contributions are welcome! Feel free to open issues or pull requests.
 
 ## License
 
----
-
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-javascript
-`In this document, the JSON examples are properly formatted and highlighted using the `json` keyword after the triple backticks. This ensures that the JSON is displayed correctly and is easy to read in your Markdown file.`
+`In this document, the JSON examples are properly formatted and highlighted using the json keyword after the triple backticks. This ensures that the JSON is displayed correctly and is easy to read in your Markdown file.`
